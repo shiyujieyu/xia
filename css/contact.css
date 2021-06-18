@@ -1,0 +1,23 @@
+html,
+body,
+header,
+
+
+.top-nav-collapse ,.page-footer{
+  background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: rgba(102, 23, 23, 0.5);
+}
+
+
+.rgba-gradient {
+  background: rgba(253, 253, 253, 0);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(247, 245, 245, 0), rgba(250, 249, 252, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(250, 251, 252,0), rgba(238, 241, 241, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.streak.streak-photo {
+  background-attachment: fixed;
+}
